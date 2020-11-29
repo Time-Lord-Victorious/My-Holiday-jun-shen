@@ -1,0 +1,182 @@
+.bkg-color{
+  background-color: #f9ed69;
+}
+body {
+  margin: 0%;
+}
+
+.blackbg-text {
+  font-size: 32px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  color: ghostwhite;
+  letter-spacing: 10px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.p-pic {
+  flex-basis: 40%;
+  font-family: fantasy;
+}
+.description {
+  font-family: 'Courier New', Courier, monospace;
+  flex-basis: 57%;
+  margin-left: 3%;
+  align-self: center;
+}
+.my-list{
+  font-family: fantasy;
+  font-size: 0.5cm;
+flex-basis: 50%;
+}
+.beside-list{
+flex-basis: 50%;
+}
+.column{
+  flex-basis: 25%;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+.section-divider1 {
+  background-image: url(images/top.jpeg);
+  height: 430px;
+  background-size: cover;
+  background-position: 0% 35%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-divider2 {
+  background-image: url(images/top.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: 0% 37%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 100%;
+}
+
+.section-divider3 {
+  background-image: url(images/memories.jpg);
+  height: 470px;
+  background-size: cover;
+  background-position: 0% 20%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-divider4{
+  background-image: url(images/frik.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: 0% 20%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-divider5{
+  background-image: url(images/sci\ fi.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: 0% 25%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-divider6{
+  background-image: url(images/jurassic.png);
+  height: 410px;
+  background-size: cover;
+  background-position: 0% 10%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sandwich {
+  margin: 0px 20%;
+}
+
+.font1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
+}
+.text3 {
+  font-family: cursive;
+}
+
+.footer{
+  background-color: #00adb5;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 32px;
+opacity: 0.8;
+}
+.button{
+  background-color: black;
+  color: ghostwhite;
+  letter-spacing: 10px;
+  text-decoration: none;
+  font-family: fantasy;
+  padding: 10px;
+  margin: 0 10px;
+}
+img{
+  width: 100%;
+}
+.flexing{
+  display: flex;
+  flex-wrap: wrap;
+}
+.info{
+  font-family: fantasy;
+  font-size: 0.5cm;
+text-align: center;
+}
+/* .flex2{
+  display: flex;
+  height: 360px;
+  width: 1000px;
+  flex-wrap: nowrap;
+  flex-basis: 200%;
+  margin: 50px 0%;
+} */
+@media (max-width: 800px){
+  .p-pic {            
+    flex-basis: 100%;
+    font-family: fantasy;
+  }
+  .description {
+    font-family: 'Courier New', Courier, monospace;
+    flex-basis: 100%;
+  }
+  .my-list{
+    font-family: fantasy;
+    font-size: 0.5cm;
+    flex-basis: 100%;
+  }
+  .beside-list{
+    flex-basis: 100%;
+  }
+  .column{
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .column{
+    flex-basis: 100%;
+  }
+}
